@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.Navbar{
+    display:grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 100px;
+    background-color: rgb(194, 224, 250);
+
+}
+
+.Navbar img{
+ 
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+    padding: 10px;
+  
+}
+
+
+.Logo-img{
+    display: flex;
+      justify-content:center;
+      align-items: center;
+}
+
+.BookingOptions ul{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    list-style-type: none;
+
+    
+    
+}
+
+
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.BookingOptions{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.Options-Navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Options-Navbar span{
+    margin: auto;
+}
+
+
+.Profile-Navbar ,.Offers-Navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
