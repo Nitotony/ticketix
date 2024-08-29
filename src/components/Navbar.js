@@ -8,6 +8,8 @@ import logo from "../assets/logo.png"
 import '../components/Navbar.css'
 
 
+
+
 const Navbar=()=>{
     return (
       <div className="Navbar">
@@ -19,21 +21,23 @@ const Navbar=()=>{
           <ul>
             <li>
               <span>
-                <FaPlane />
+                <FaPlane color="white" />
               </span>
               <p>Plane</p>
             </li>
             <li>
               <span>
-                <FaTrain />
+                <FaTrain color="white" />
               </span>
               <p>Train</p>
             </li>
             <li>
-              <span>
-                <FaBusAlt />
-              </span>
-              <p>Bus</p>
+              
+                <span>
+                  <FaBusAlt color="white" />
+                </span>
+                <p>Bus</p>
+              
             </li>
           </ul>
         </div>
@@ -41,13 +45,13 @@ const Navbar=()=>{
         <div className="Options-Navbar">
           <div className="Offers-Navbar">
             <span>
-              <MdLocalOffer />
+              <MdLocalOffer color="white" />
             </span>
             <p>Offers</p>
           </div>
           <div className="Profile-Navbar">
             <span>
-              <IoMdLogIn />
+              <IoMdLogIn color="white" />
             </span>
             <p>Login/signup</p>
           </div>
