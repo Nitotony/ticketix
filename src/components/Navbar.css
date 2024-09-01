@@ -63,9 +63,21 @@ li{
     padding: 10px;
 }
 
-.Options-Navbar span{
-    margin: auto;
+
+
+.Links1 {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+    height:50px ;
+    
+    padding: 5px;
+    /* border: white 1px solid; */
 }
+
+
 
 
 .Profile-Navbar ,.Offers-Navbar{
@@ -101,8 +113,8 @@ p{
   
 }
 
-.Options-Navbar span{
-    font-size: smaller;
+.Options-Navbar{
+    font-size: x-small;
 }
 
 
@@ -111,8 +123,23 @@ p{
     flex-direction: row;
     gap:40px;
     list-style-type: none;
+    font-size: x-small;
+
 
     
     
 }
+
+.Links1 {
+    display: flex;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    width: 80px;
+    height:50px ;
+    
+    padding: 5px;
+    /* border: white 1px solid; */
+}
+
 }

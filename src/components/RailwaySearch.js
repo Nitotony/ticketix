@@ -9,13 +9,13 @@ const Destination_Prime = [
   { value: "vanilla", label: "Vanilla" },
 ];
 
-const Class=[
+// const Class=[
   
-      { value: "sleeper", label: "Sleeper" },
-  { value: "seating", label: "Seating" },
-  { value: "ac", label: "AC" },
+//       { value: "sleeper", label: "Sleeper" },
+//   { value: "seating", label: "Seating" },
+//   { value: "ac", label: "AC" },
   
-]
+// ]
 
 const Origin_Prime = [
   { value: "chocolate", label: "Chocolate" },
@@ -102,7 +102,7 @@ const RailwaySearchComp = () => {
             }}
           />
         </div>
-        <div>
+        {/* <div>
           <Select options={Class} styles={SelectStyle}
           onChange={(select)=>{
             setPassClass(select.value);
@@ -110,7 +110,7 @@ const RailwaySearchComp = () => {
           }}
           placeholder="Class"
           />
-        </div>
+        </div> */}
 
         <div className="Passenger_comp">
           <label htmlFor="Passenger">Passenger No.</label>

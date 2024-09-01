@@ -91,13 +91,13 @@
 
 
 
-label{
+.search_comp label{
     font-size: x-small;
-    color: grey;
+    color: rgb(141, 140, 140);
     
 }
 
-h3{
+.search_comp h3{
     text-align: center;
     padding: 30px;
     background-color:  rgb(65, 48, 223);

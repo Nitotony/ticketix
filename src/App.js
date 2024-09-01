@@ -1,31 +1,17 @@
+import  {BrowserRouter,Routes,Route} from "react-router-dom";
+import Login from './pages/login'
 
-import './App.css';
-import Navbar from './components/Navbar';
-import RailwaySearch_comp from './components/RailwaySearch';
-import Suggested from './components/suggested';
-import Login from './pages/login';
-
-import image from "./assets/logo.png"
-import Footer from './components/footer';
+import Home from "./pages/homepage";
+import RailSearchResult from "./pages/RailSearchResult"
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <RailwaySearch_comp /> 
-
-
-      <h2 className='head-prime'>Popular Routes</h2>
-      <div className="suggestion_grid">
-        <Suggested dest="Delhi" org="Gurugram" img={image} />
-        <Suggested dest="Assam" org="Gurugram" img={image} />
-        <Suggested dest="Hosur" org="Gurugram" img={image} />
-        <Suggested dest="Coimbatore" org="Gurugram" img={image} />
-       
-      </div>
-
-      <Footer/>
-      {/* <Login /> */}
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/railsearchresult" element={<RailSearchResult />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
