@@ -1,106 +1,106 @@
-.railResultcomp{
+.railResultcomp {
     display: flex;
-    width: 70%;
+    width: 90%;
     justify-content: space-around;
-    background-color: aliceblue;
     border-radius: 30px;
     padding: 20px;
-    margin: 50px auto;
+    margin: 20px 20px;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 30px 10px rgb(129, 129, 129);
 }
-.Identity_Name_compR{
+
+.Identity_Name_compR {
     display: flex;
     flex-direction: column;
+    background-color: navy; 
+    color: white;
     justify-content: space-around;
+
     align-items: center;
     padding: 10px;
     margin: 10px;
+    border-radius: 30px;
 }
 
-.Identity_compR{
+.Identity_compR, .Name_compR {
     display: flex;
     padding: 10px;
 }
 
-.Name_compR{
-    display: flex;
-    padding: 10px;
-}
-
-.classesAvail{
+.classesAvail {
     display: flex;
     font-size: small;
-   
 }
 
-
-.classesAvail ul{
+.classesAvail ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
-.classesAvail ul li{
+
+.classesAvail ul li {
     padding: 5px;
     margin: 2px;
     text-align: center;
-    justify-content: center;
 }
 
-
-.timeComponent{
+.timeComponent {
     display: flex;
-   gap: 100px;
-   padding: 20px;
-   
+    gap: 100px;
+    padding: 20px;
+    background-color: navy; 
+    color: white;
+    border-radius: 30px;
 }
-.timeComponent >* >*{
+
+.timeComponent > * > * {
     padding: 10px;
 }
 
-.price_componentR{
+.price_componentR {
     text-align: center;
 }
 
-.departure_time_compR{
+.time_price_componentR{
+
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+   
+.departure_time_compR, .arrival_time_compR {
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
     justify-content: center;
     align-items: center;
-
 }
 
-.arrival_time_compR{
+.buttonSelectionsR {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    background-color: aqua;
-    justify-content: center;
-    align-items: center;
-
-
 }
 
-
-.buttonSelectionsR{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.buttonSelectionsR h6 {
+    color: red;
 }
 
-.bookButtonR{
-    background-color: #529bdf;
-    color:white;
+.bookButtonR, .notifybuttonR {
+       background-color: navy; 
+    color: white;
     padding: 10px;
     border: none;
     border-radius: 5px;
 }
 
-
-.notifybuttonR{
-     background-color: #529bdf;
-    color:white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
+.notifybuttonR {
+    margin-bottom: 20px;
 }
 
+
+ .RailrangeSlider{
+    padding: 30px;
+ }

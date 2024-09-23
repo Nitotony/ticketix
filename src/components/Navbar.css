@@ -8,7 +8,7 @@
     display:grid;
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 100px;
-    background-color: rgb(65, 48, 223);
+    background-color: #03045E; 
   
 
 }
@@ -19,7 +19,7 @@
     height: 50px;
     object-fit: cover;
     padding: 10px;
-    border: 2px white solid;
+    border: 2px #CAF0F8 solid;
   
 }
 
@@ -74,7 +74,7 @@ li{
     height:50px ;
     
     padding: 5px;
-    /* border: white 1px solid; */
+    
 }
 
 
@@ -88,8 +88,8 @@ li{
 }
 
 
-p{
-    color:white;
+.Navbar p{
+    color:#CAF0F8;
 }
 
 

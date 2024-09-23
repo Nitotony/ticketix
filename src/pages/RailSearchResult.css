@@ -1,0 +1,58 @@
+.RailResultcontainer{
+   
+    width: 100%;
+   display: grid;
+   grid-template-columns:20% 60%;
+   column-gap: 100px;
+
+
+   
+}
+.DirectionR{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px;
+  padding: 20px;
+}
+.Railrecontainer{
+  overflow:scroll;
+  height: 90vh;
+  padding: 20px;
+}
+
+.RailPriceSet{
+  text-align: left;
+  font-size: 25px;
+  padding: 10px 50px;
+}
+.timeSelectionRail{
+  display:grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto  auto;
+  font-size: 70px;
+  text-align: center;
+
+  padding: 20px;
+
+
+}
+
+.timeSelectionRail >*{
+  padding: 10px 30px;
+  
+}
+
+.timeSelectionRail >*:hover{
+  background-color: aliceblue;
+
+}
+
+
+.RailResultMod{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: aqua;
+}

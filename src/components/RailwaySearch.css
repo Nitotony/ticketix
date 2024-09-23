@@ -82,8 +82,8 @@
 }
 .search_comp_button button{
     padding: 10px;
-    background-color:  rgb(65, 48, 223);
-    color:white;
+      background-color: #03045E; 
+    color:#CAF0F8;
     border: none;
     border-radius: 20px;
     font-size: large;
@@ -100,20 +100,35 @@
 .search_comp h3{
     text-align: center;
     padding: 30px;
-    background-color:  rgb(65, 48, 223);
-    color: white;
+    background-color: #03045E; 
+    color: #CAF0F8;
     border-radius: 20px;
 }
 
 
 .Rail_variables input{
     padding: 20px;
-    outline: 2px solid   rgb(65, 48, 223);
-    border: none;
+    border: 2px solid#0077B6 ;
   
     border-radius: 20px;
+    outline: none;
 }
 
+
+
+.Rail_variables input:hover{
+    
+    border: 2px solid #a5a6a7 ;
+    
+  
+   
+}
+.Rail_variables input:focus{
+    
+    border: 3px solid #326ff3 ;
+  
+   
+}
 
 
 @media screen and (min-width: 375px) and (max-width: 600px) {

@@ -16,7 +16,7 @@ const Navbar=()=>{
     return (
       <div className="Navbar">
         <div className="Logo-img">
-          <Link  to="/">
+          <Link to="/">
             <img src={logo} alt="ticketix logo" />
           </Link>
         </div>
@@ -26,7 +26,7 @@ const Navbar=()=>{
             <li>
               <Link className="Links1" to="/plane_booking">
                 <span>
-                  <FaPlane color="white" />
+                  <FaPlane color="#CAF0F8" />
                 </span>
                 <p>Plane</p>
               </Link>
@@ -34,7 +34,7 @@ const Navbar=()=>{
             <li>
               <Link className="Links1" to="/">
                 <span>
-                  <FaTrain color="white" />
+                  <FaTrain color="#CAF0F8" />
                 </span>
                 <p>Train</p>
               </Link>
@@ -42,7 +42,7 @@ const Navbar=()=>{
             <li>
               <Link className="Links1" to="/bus_booking">
                 <span>
-                  <FaBusAlt color="white" />
+                  <FaBusAlt color="#CAF0F8" />
                 </span>
                 <p>Bus</p>
               </Link>
@@ -54,7 +54,7 @@ const Navbar=()=>{
           <div className="Offers-Navbar">
             <Link className="Links1" to="/offers">
               <span>
-                <MdLocalOffer color="white" />
+                <MdLocalOffer color="#CAF0F8" />
               </span>
               <p>Offers</p>
             </Link>
@@ -62,7 +62,7 @@ const Navbar=()=>{
           <div className="Profile-Navbar">
             <Link className="Links1" to="/login">
               <span>
-                <IoMdLogIn color="white" />
+                <IoMdLogIn color="#CAF0F8" />
               </span>
               <p>Login/signup</p>
             </Link>

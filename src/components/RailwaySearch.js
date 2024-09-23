@@ -29,12 +29,11 @@ const SearchStyle = {
     width: "100%",
     padding: "10px",
     borderRadius: "10px",
-    border: "solid rgb(65, 48, 223) 2px",
-   
+    border: "solid  #0077B6  2px",
   }),
   option: (provided, state) => ({
     ...provided,
-    textAlign:"left",
+    textAlign: "left",
   }),
 };
 

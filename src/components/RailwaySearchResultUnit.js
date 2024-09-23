@@ -38,7 +38,12 @@ const RailwaySearchResultUnit=(props)=>{
         <div className="buttonSelectionsR">{
           availablity?<button className="bookButtonR">Book</button>:
           <button className="notifybuttonR">Notify</button>
+          
           }
+          {
+            availablity? "":<h6>fully booked</h6>
+          }
+         
           
         </div>
       </div>
